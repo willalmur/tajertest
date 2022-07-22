@@ -1,0 +1,7 @@
+{
+  "name": "tajertest",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
