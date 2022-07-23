@@ -57,7 +57,7 @@ export class TajerNavbarService implements TajerNavbar {
               buttonIcon: 'information-circle-outline',
               buttonText: 'About',
               buttonTextColor: 'danger',
-              buttonUrl: '/about',
+              buttonUrl: '/en/about',
             },
           ],
           tajerSwitchButton: {
@@ -79,7 +79,7 @@ export class TajerNavbarService implements TajerNavbar {
               buttonIcon: 'information-circle-outline',
               buttonText: 'تعريف',
               buttonTextColor: 'danger',
-              buttonUrl: '/about',
+              buttonUrl: '/ar/about',
             },
           ],
           tajerSwitchButton: {

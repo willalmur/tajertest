@@ -8,6 +8,7 @@ import { InformationalPageRoutingModule } from './informational-routing.module';
 
 import { InformationalPage } from './informational.page';
 import { TajerNavbarModule } from '../lib/tajer-navbar/tajer-navbar.module';
+import { TajerHeaderModule } from '../lib/tajer-header/tajer-header.module';
 
 @NgModule({
   imports: [
@@ -16,6 +17,7 @@ import { TajerNavbarModule } from '../lib/tajer-navbar/tajer-navbar.module';
     IonicModule,
     InformationalPageRoutingModule,
     TajerNavbarModule,
+    TajerHeaderModule,
   ],
   declarations: [InformationalPage],
 })

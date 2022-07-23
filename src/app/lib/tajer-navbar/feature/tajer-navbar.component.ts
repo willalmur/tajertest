@@ -14,6 +14,7 @@ import { TajerNavbarService } from '../data-access/tajer-navbar.service';
   changeDetection: ChangeDetectionStrategy.OnPush,
   template: `<ion-toolbar>
     <ion-item
+      lines="none"
       *ngIf="tajerNavbarService.getNavbar() | async as Navbar; else loading"
     >
       <app-tajer-logo

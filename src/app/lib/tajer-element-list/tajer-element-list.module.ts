@@ -8,7 +8,6 @@ import { TajerElementListService } from './data-access/tajer-element-list.servic
 @NgModule({
   declarations: [TajerElementListComponent],
   imports: [CommonModule, SharedModule, IonicModule],
-  providers: [TajerElementListService],
   exports: [TajerElementListComponent],
 })
 export class TajerElementListModule {}

@@ -13,7 +13,7 @@ const routes: Routes = [
       import('./home/home.module').then((m) => m.HomePageModule),
   },
   {
-    path: ':info-param',
+    path: ':lang/:info-param',
     loadChildren: () =>
       import('./informational/informational.module').then(
         (m) => m.InformationalPageModule

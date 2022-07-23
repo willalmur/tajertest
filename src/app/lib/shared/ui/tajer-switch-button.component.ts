@@ -19,7 +19,7 @@ import { Button } from '../data-access/button';
   </ion-button>`,
   styles: [],
 })
-export class TajerSwitchButtonComponent implements Button<string> {
+export class TajerSwitchButtonComponent implements Button {
   @Input() buttonText: string;
   @Input() buttonTextColor: string;
   @Input() buttonColor: string;

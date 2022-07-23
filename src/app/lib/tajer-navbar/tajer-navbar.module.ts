@@ -8,7 +8,6 @@ import { TajerNavbarService } from './data-access/tajer-navbar.service';
 @NgModule({
   declarations: [TajerNavbarComponent],
   imports: [CommonModule, SharedModule, IonicModule],
-  providers: [TajerNavbarService],
   exports: [TajerNavbarComponent],
 })
 export class TajerNavbarModule {}

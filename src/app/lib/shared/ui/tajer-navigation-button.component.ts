@@ -16,7 +16,7 @@ import { Button } from '../data-access/button';
   </ion-button>`,
   styles: [],
 })
-export class TajerNavigationButtonComponent implements Button<string> {
+export class TajerNavigationButtonComponent implements Button {
   @Input() buttonText: string;
   @Input() buttonTextColor: string;
   @Input() buttonColor: string;
