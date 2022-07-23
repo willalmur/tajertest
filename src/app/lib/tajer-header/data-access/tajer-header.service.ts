@@ -15,22 +15,20 @@ export class TajerHeaderService implements TajerHeader {
   constructor() {}
 
   getTajerHeader(paramlink, lang): Observable<TajerHeader> {
-    return paramlink === 'about' && lang === 'en'
-      ? of({
-          tajerBackButton: {
-            buttonText: '',
-            buttonTextColor: '',
-            buttonColor: 'black',
-            buttonIcon: 'arrow-back-circle-outline',
-            defaultHref: '/en/home',
-            slot: 'start',
-          },
-          tajerPageTitle: {
-            titleText: 'About',
-            titleColor: 'dark',
-            titleSize: 'small',
-          },
-        })
-      : null;
+    return of({
+      tajerBackButton: {
+        buttonText: '',
+        buttonTextColor: '',
+        buttonColor: 'black',
+        buttonIcon: 'arrow-back-circle-outline',
+        defaultHref: '/en/home',
+        slot: 'start',
+      },
+      tajerPageTitle: {
+        titleText: 'About',
+        titleColor: 'dark',
+        titleSize: 'small',
+      },
+    });
   }
 }
